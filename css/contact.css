@@ -1,0 +1,92 @@
+*{
+    font-family:sans-serif;
+}
+body{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    background-color:#e7e7e7;
+}
+
+/* .formulaire{
+    width:100%;
+    display: flex;
+    justify-content: center;
+} */
+
+.formulaire form .nom_et_email{
+    display: flex;
+    
+}
+.formulaire form .flex{
+    width: 100%;
+    height: 45px;
+    margin-bottom: 15px;
+}
+.formulaire form input{
+    width: 100%;
+    height: 100%;
+    outline:none;
+    border:none;
+    background-color:transparent;
+    border-bottom:1px solid rgba(0,0,0,0.292);
+    margin-bottom:20px;
+    font-size: 1em;
+}
+.formulaire form .name{
+    margin-right: 10px;
+}
+.formulaire form textarea{
+    width: 100%;
+    height: 200px;
+    background-color:transparent;
+    resize: none;
+    margin-bottom:20px;
+    font-size: 1em;
+}
+ .formulaire form{
+    padding: 50px; 
+}
+
+
+
+/* .formulaire form input{
+    outline:none;
+    border:none;
+    background-color:transparent;
+    border-bottom:1px solid rgba(0,0,0,0.292);
+    width:99%;
+    margin-bottom:20px;
+    font-size: 1em;
+} */
+.formulaire form .button-area{
+    margin-top:200px;
+}
+.formulaire form .button-area button{
+    cursor:pointer;
+    border:none;
+    width:70%;
+    height:50px;
+    background-color:rgb(50,147,51);
+    padding:5px;
+    color:#fff;
+    font-size:1.5em;
+    font-family:sans-serif;
+    border-radius:2em;
+    box-shadow: 10px 10px 15px #0000002f, 10px -10px 15px #ffffffca;
+    transition:0.2s;
+}
+.formulaire form button:hover{
+    background-color:rgb(40,129,42);
+}
+.formulaire form p{
+    color:rgb(120, 110, 110);
+}
+.formulaire form p span{
+    color:#000000;
+    font-weight: bold;
+    cursor:pointer;
+}
+.formulaire form p span:hover{
+    color:rgb(255, 2, 2);
+}
