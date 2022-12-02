@@ -124,31 +124,34 @@ header ul li a {
     background-repeat:no-repeat;
     width:100%;
     height: 500px;
-    border:solid white 1px;
     display:flex;
     justify-content:center;
     align-items: center;
     flex-direction: column;
 }
 
-.menu-body .search{
+.menu-body form{
     width:40%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.menu-body .search{
+    display:flex;
+    width:100%;
     height:50px;
     border:solid white 4px;
-    border-radius: 25px;
+    border-radius: 10px;
     margin-bottom:10px;
+    border:none;
 }
-.menu-body div span{
-    font-size:50px;
-    font-family:sans-serif;
-    color:#55B364;
+.menu-body #icon_de_recherche{
+    display: none;
 }
+
 /*======================== FIN MENU-BODY===================*/
 
-.about .profile .first-body img{
-    border-radius:50px;
-    width:100%;
-}
+
 .about{
     display:flex;
     flex-direction: column;
@@ -166,6 +169,12 @@ header ul li a {
     border-top-right-radius: 50px;
     border:solid lightgray;
 }
+
+
+.about .profile .first-body img{
+    border-radius:50px;
+    width:100%;
+}
 .about .profile .info{
     display:flex;
     flex-direction:column;
@@ -173,19 +182,22 @@ header ul li a {
     align-items:center;
     margin-top:20px;
 }
+
 .about .profile .info span{
     font-size:22px;
     font-family:sans-serif;
 }
 .about .profile .info button{
     background-color:#55B364;
-    font-size:30px;
+    font-size:20px;
     color:white;
     border:none;
     width:80%;
     margin:15px 0;
     padding:10px 0;
+    cursor:pointer;
 }
+
 .actuality {
     margin-top:60px;
     display:flex;
@@ -193,7 +205,7 @@ header ul li a {
     flex-wrap:wrap;
 }
 .actuality h2{
-    font-size:35px;
+    font-size:25px;
     font-family:sans-serif;
     color:#55B364;
     position:relative;
@@ -207,15 +219,15 @@ header ul li a {
     position:absolute;
     bottom:0;
     margin-left:3px;
-    width:150px;
+    width:100px;
 }
 .actuality .actu{
     display:flex;
     justify-content:center;
     align-items:center;
-    border:solid #55B364;
     margin-top:50px;
     width:500px;
+    background-color:#e7e7e7;
 
 }
 .actuality .actu img{
@@ -237,7 +249,7 @@ header ul li a {
 .actuality .actu div button a{
     color:white;
     text-decoration: none;
-    font-size:25px;
+    font-size:20px;
 }
 .contact{
     border:solid lightgray;
@@ -284,17 +296,44 @@ header ul li a {
     box-shadow: 0 0 10px rgba(0,0,0,0.3);
     width:70px;
     height:70px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
 }
+.contact .contact-icon div #icon-id{
+    font-size: 50px;
+    color:#585656;
+}
+/*==================fin contact========================*/
 
 footer{
-    height:50px;
     background-color:#55B364;
-    display:flex;
     justify-content:center;
-    align-items:center;
     margin-top:50px;
     width:100%;
+    font-family: sans-serif;
+    color:white;
+    flex-wrap: wrap;
+    margin-bottom:0;
+    padding: 30px 0;
 }
+footer div{
+    margin:50px 50px;
+}
+footer div h3{
+    margin:20px 0;
+    font-family: sans-serif;
+}
+footer .menu_footer ul li{
+    list-style: none;
+    margin-top:10px;
+}
+footer .menu_footer ul li a{
+    color:white;
+    font-family: sans-serif;
+}
+/*====================fin footer========================*/
+
 
 @media screen and (max-width:700px){
     .first-bloc .logo{
@@ -319,6 +358,15 @@ footer{
     .first-bloc .site-name .davgui{
         font-size:50px;
     }
+    
+.menu-body form .search {
+    display:none;
+}
+.menu-body form #icon_de_recherche{
+    display:flex;
+    font-size:55px;
+    color:white;
+}
     .menu-body div span{
         font-size:30px;
     }
@@ -328,6 +376,7 @@ footer{
     .actuality .bloc-actu{
         margin-left:5px;
     }
+    
     .actuality .actu{
         width:100%;
         border:none;
@@ -347,6 +396,10 @@ footer{
     .about .profile .info button{
         font-size:25px;
         width:60%;
+    }
+    .contact .contact-icon div #icon-id{
+        font-size: 30px;
+        color:#585656;
     }
 
    

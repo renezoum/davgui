@@ -8,11 +8,6 @@ body{
     background-color:#e7e7e7;
 }
 
-/* .formulaire{
-    width:100%;
-    display: flex;
-    justify-content: center;
-} */
 
 .formulaire form .nom_et_email{
     display: flex;

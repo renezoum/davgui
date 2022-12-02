@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>davgui</title>
-    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="css/index.css">
     <link rel="stylesheet" href="css/contact.css">
 </head>
 
@@ -15,7 +15,7 @@
 
     <div class="formulaire">
         <form>
-            <h3>Welcome</h3>
+            <h3>Envoyer un message</h3>
             <div class="bloc_principale">
                 <div class="nom_et_email">
                     <div class="flex name">
@@ -40,8 +40,18 @@
        </form>
     </div>
 
-    <footer>
-        <h2>Site de davgui</h2>
-    </footer>
+    <?php include("section/footer.html");?>
+   <script>
+        var menu= document.querySelector('.menu');
+                var trait= document.querySelector('.trait');
+                var menu_toggle=document.querySelector('header');
+
+
+                menu.onclick = function(){
+                trait.classList.toggle('active');
+                menu_toggle.classList.toggle('responsive');
+                
+                }
+    </script>
     
 </body>
