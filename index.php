@@ -21,6 +21,7 @@
                  <?php include("section/contact.html");?>
             </div>
     </section>   
+    <?php include("section/secteur.html");?>
    <?php include("section/footer.html");?>
     
 </body>

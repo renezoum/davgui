@@ -3,6 +3,9 @@
     margin:0;
     padding:0;
 }
+body{
+    transition:all 0.4s;
+}
 
 .first-bloc{
     display:flex;
@@ -136,6 +139,16 @@ header ul li a {
     justify-content: center;
     align-items: center;
 }
+.menu-body form .bloc-recherche{
+    background-color:#55B364;
+    width:70px;
+    height:70px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    border-radius:50%;
+    display:none;
+}
 .menu-body .search{
     display:flex;
     width:100%;
@@ -203,6 +216,7 @@ header ul li a {
     display:flex;
     justify-content:space-evenly;
     flex-wrap:wrap;
+    margin-bottom: 70px;
 }
 .actuality h2{
     font-size:25px;
@@ -250,6 +264,41 @@ header ul li a {
     color:white;
     text-decoration: none;
     font-size:20px;
+}
+/*=======================fin actualite====================*/
+
+.secteur-activite h3{
+    font-size: 27px;
+    font-family: sans-serif;
+    text-align: center;
+    color:#55B364;
+}
+.secteur-activite .secteur{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-wrap:wrap;
+    margin-top:20px;
+    background-color:#e7e7e7;
+}
+
+.secteur div {
+    width:430px;
+    margin:10px;
+    background-color: white;
+    margin-top:20px;
+}
+.secteur div .image_font{
+ 
+    width:95%;
+    background-size: cover;
+    height:400px;
+    margin-bottom:15px;
+}
+.secteur div p{
+    font-size:20px;
+    padding:5px;
+    font-family: sans-serif;
 }
 .contact{
     border:solid lightgray;
@@ -317,12 +366,19 @@ footer{
     margin-bottom:0;
     padding: 30px 0;
 }
+footer .menu_footer{
+    display:flex;
+    justify-content:space-evenly;
+    align-items: center;
+}
+
 footer div{
     margin:50px 50px;
 }
 footer div h3{
-    margin:20px 0;
+    margin:20px 0px;
     font-family: sans-serif;
+    font-size:20px;
 }
 footer .menu_footer ul li{
     list-style: none;
@@ -331,6 +387,20 @@ footer .menu_footer ul li{
 footer .menu_footer ul li a{
     color:white;
     font-family: sans-serif;
+}
+footer .menu_footer .contact-icon h3{
+    font-size:20px;
+}
+footer .menu_footer .contact-icon div a i{
+    font-size:30px;
+    color:white;
+}
+
+.davgui-footer{
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    margin-bottom: 0;
 }
 /*====================fin footer========================*/
 
@@ -366,6 +436,9 @@ footer .menu_footer ul li a{
     display:flex;
     font-size:55px;
     color:white;
+}
+.menu-body form .bloc-recherche{
+    display:flex;
 }
     .menu-body div span{
         font-size:30px;
