@@ -60,12 +60,12 @@ body{
 .formulaire form .button-area button{
     cursor:pointer;
     border:none;
-    width:70%;
+    width:55%;
     height:50px;
     background-color:rgb(50,147,51);
     padding:5px;
     color:#fff;
-    font-size:1.5em;
+    font-size:1.2em;
     font-family:sans-serif;
     border-radius:2em;
     box-shadow: 10px 10px 15px #0000002f, 10px -10px 15px #ffffffca;
