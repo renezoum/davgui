@@ -1,0 +1,91 @@
+.actuality {
+    margin-top:60px;
+    display:flex;
+    justify-content:space-evenly;
+    flex-wrap:wrap;
+    margin-bottom: 70px;
+}
+.actuality h2{
+    font-size:25px;
+    font-family:sans-serif;
+    color:#55B364;
+    position:relative;
+    display:flex;
+    justify-content:center;
+    z-index:-1;
+
+}
+.actuality h2::before{
+    content:"";
+    height:5px;
+    background-color: #55B364;
+    position:absolute;
+    bottom:0;
+    margin-left:3px;
+    width:100px;
+}
+ .actu{
+    margin-top:50px;
+    width:500px;
+    background-color:aliceblue;
+
+}
+ .actu img{
+    width:300px;
+}
+.actu div p{
+    font-family: sans-serif;
+}
+.actuality .actu div button{
+    border:solid black 1px;
+    margin-top:15px;
+}
+.actu div button a{
+    color:brown;
+    text-decoration: none;
+    font-size:20px;
+    padding:4px;
+    font-weight: bold;
+}
+.actu div .date{
+    font-family: sans-serif;
+    margin-right:15px;
+    color:brown;
+    font-style:italic;
+    background-color:#e7e7e7 ;
+
+}
+.actu div .commentaire {
+    font-family: sans-serif;
+    color:brown;
+    font-style:italic;
+    background-color:#e7e7e7 ;
+}
+
+
+@media screen and (max-width:700px){
+
+    .actuality .actu img{
+        width:60%;
+    }
+    .actuality .bloc-actu{
+        margin-left:5px;
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .actuality .actu{
+        width:80%;
+        border:none;
+    }
+    .actuality .actu div p{
+        font-size: 15px;
+        width:90%;
+    }
+    .actuality .actu div button a{
+        font-size:20px;
+    }
+
+}

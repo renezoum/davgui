@@ -1,0 +1,86 @@
+
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    transition:all 0.4s;
+}
+
+*{
+    font-family:sans-serif;
+}
+
+body{
+    margin:0;
+    background-color:#e7e7e7;
+}
+.form_connexion{
+    margin:250px  auto;
+    max-width:80%;
+    height:470px;
+    box-shadow: 10px 10px 15px #0000002f, 10px -10px 15px #ffffffca;
+    border-radius: 1em;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content: space-around;;
+}
+
+.form_connexion .connecter{
+    font-size:28px;
+    color:rgb(23,22,22);
+}
+
+.form_connexion input{
+    outline:none;
+    border:none;
+    background-color:transparent;
+    border-bottom:1px solid rgba(0,0,0,0.292);
+    width:70%;
+    padding:5px;
+    font-size: 1em;
+}
+
+.form_connexion button{
+    cursor:pointer;
+    border:none;
+    width:70%;
+    height:50px;
+    background-color:rgb(50,147,51);
+    padding:5px;
+    color:#fff;
+    font-size:1.5em;
+    font-family:sans-serif;
+    border-radius:2em;
+    box-shadow: 10px 10px 15px #0000002f, 10px -10px 15px #ffffffca;
+    transition:0.2s;
+}
+.form_connexion button:hover{
+    background-color:rgb(40,129,42);
+}
+.form_connexion p{
+    color:rgb(120, 110, 110);
+}
+.form_connexion p span{
+    color:#000000;
+    font-weight: bold;
+    cursor:pointer;
+}
+.form_connexion p span a{
+    text-decoration: none;
+    color:#55B364;
+    margin:10px;
+}
+.form_connexion p span:hover{
+    color:rgb(255, 2, 2);
+}
+
+
+@media screen and (max-width:700px){
+   
+    .form_connexion p {
+        font-size: 15px;
+    }
+    
+    }

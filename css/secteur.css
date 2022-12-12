@@ -1,0 +1,85 @@
+.objectif{
+    font-size:30px;
+    font-family: sans-serif;
+    color:#55B364;
+    text-align: center;
+    position:relative;
+    margin-bottom: 10px;
+    z-index:-1;
+}
+
+.objectif::before{
+    content:"";
+    width:250px;
+    height: 5px;
+    background-color: #55B364;
+    position:absolute;
+    bottom:0;
+    
+}
+.global{
+    background-color: #e7e7e7;
+    margin-top:20px;
+}
+.secteur{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background-color:#e7e7e7;
+    width:100%;
+}
+
+.secteur .paragraphe h3{
+    font-size: 27px;
+    font-family: sans-serif;
+    text-align: center;
+    color:#55B364;
+}
+ .secteur .paragraphe {
+    width:40%;
+}
+
+.secteur .blocks {
+    margin:10px;
+    width:90%;
+    background-color:white;
+    display:flex;
+    justify-content:space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.secteur div .image_font{
+    padding: 0 25px;
+    width:50%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-size:cover;
+    background-repeat: no-repeat;
+    height:400px;
+    margin-bottom:15px;
+}
+.secteur div .image_font img{
+    width:100%;
+}
+.secteur div p{
+    font-size:20px;
+    padding-left:15px;
+    font-family: sans-serif;
+}
+
+
+@media screen and (max-width:700px){
+   
+    
+   
+    .secteur div .image_font{
+        width:100%;
+    }
+    .secteur div .paragraphe{
+        width:100%;
+        margin-bottom:20px;
+    }
+
+   
+}

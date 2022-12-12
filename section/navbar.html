@@ -4,17 +4,31 @@
     </div>
     <div class="site-name">
         <span class="davgui">Davgui</span>
-        <span class="titre">Bienvenue</span>
     </div>
     <header>
         <ul>
             <li><a href="index.php">Accueil</a></li>
-            <li><a href="actualite.php">Actualite</a></li>
+            <li><a href="page_actualite.php">Actualite</a></li>
             <li><a href="pages_biographie.php">Biographie</a></li>
             <li><a href="contact.php">Contact</a></li>
         </ul>
     </header>
     <div class="menu">
-        <span class="trait"></span>
+        <span class="trait"></span>       
+        <i class="fa-solid fa-user" id="user"></i>
+        <div class="login">
+            <a href="connexion.php">connexion</a>
+            <a href="inscrire.php">s'inscrire</a>
+        </div>
     </div>
 </section>
+ 
+<!-----POUR LE BOUTTON DE CONNEXION---------->
+<script>
+    var user= document.querySelector('#user');
+    var login= document.querySelector('.login')
+        user.onclick = function(){
+        login.classList.toggle('active');    
+        login.classList.toggle('responsive');    
+        }
+</script>

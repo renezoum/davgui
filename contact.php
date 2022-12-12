@@ -7,12 +7,14 @@
     <title>davgui</title>
     <link rel="stylesheet" href="css/index.css">
     <link rel="stylesheet" href="css/contact.css">
+    <link rel="stylesheet" href="css/navbar.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
 <body>
    
     <?php include("section/navbar.html"); ?>
-
     <div class="formulaire">
         <form>
             <h3>Envoyer un message</h3>
@@ -42,7 +44,7 @@
 
     <?php include("section/footer.html");?>
    <script>
-        var menu= document.querySelector('.menu');
+        var menu= document.querySelector('.trait');
                 var trait= document.querySelector('.trait');
                 var menu_toggle=document.querySelector('header');
 
