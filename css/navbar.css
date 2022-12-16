@@ -172,6 +172,9 @@ header ul li a {
     .first-bloc .menu{
         width:100px
     }
+    .site-name .davgui{
+        display:none;
+    }
     .menu #user{
         font-size:30px;
         color:brown;
