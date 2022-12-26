@@ -1,5 +1,6 @@
 
 .first-bloc{
+    height:100px;
     display:flex;
     justify-content:space-around;
     align-items:center;
@@ -13,7 +14,7 @@
     z-index:1;
 }
 .first-bloc .logo{
-    width:100px;
+    width:90px;
 }
 .first-bloc .logo img{
     width:100%;
@@ -163,9 +164,7 @@ header ul li a {
 }
 
 @media screen and (max-width:700px){
-    .first-bloc{
-        height:150px;
-    }
+   
     .first-bloc .logo{
         width:70px;
     }
